@@ -1,0 +1,31 @@
+@media only screen and (max-width: 600px) {
+  .flex {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .tabone {
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .img-1 {
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    line-height: 0;
+  }
+
+  .img {
+    filter: drop-shadow(5px 3px 0px black);
+    -webkit-filter: drop-shadow(5px 3px 0px black);
+  }
+
+  .text {
+    margin: 0px 10px;
+    text-align: justify;
+  }
+}

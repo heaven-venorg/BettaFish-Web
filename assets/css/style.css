@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: proximity;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: #242940;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav p {
+  font-size: 14px;
+  color: white;
+  letter-spacing: 4px;
+  font-weight: 700;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+}
+
+nav .menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+/* Page */
+main {
+  height: 100vh;
+}
+
+.img-1 {
+  width: 300px;
+}
+
+#home {
+  background-color: #202439;
+  color: white;
+}
+
+.img {
+  filter: drop-shadow(5px 3px 0px black);
+  -webkit-filter: drop-shadow(5px 3px 0px black);
+}
+
+.flex {
+  height: 100vh;
+  gap: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex .text {
+  line-height: 10px;
+  max-width: 400px;
+}
+
+.flex .text p {
+  line-height: normal;
+  max-width: 400px;
+}
+
+.btn {
+  padding: 10px 50px;
+  background-color: #242940;
+  border: 2px solid black;
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+  line-height: normal;
+  color: #f6f6f6;
+}
+
+#about {
+  background-color: #242940;
+  height: 100vh;
+  color: white;
+}
+
+#types {
+  background-color: #202439;
+  height: 100vh;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  line-height: 10px;
+}
+
+.tabone {
+  margin-top: 4rem;
+  display: flex;
+  gap: 100px;
+  line-height: normal;
+}
+
+.imgbg {
+  padding: 30px;
+  border: 1px solid black;
+  border-radius: 100%;
+  background-color: #141724;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
